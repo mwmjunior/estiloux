@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+
+/* Reset de Propriedades do navegador */
+
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ 
+}
+
+
+body {font-family: 'Quicksand', sans-serif;  
+color: gray;}
+
+/*  Configuraçoes genericas */
+
+.container-grid {
+    width: 80%;
+    margin: 0 auto;
+    background-color: purple;
+}
+
+
+
+/*****Cabeçalho*****/
+header {
+    background-color: grey;
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 { color: white; font-weight: 300; border: 2px solid white;
+}
+
+
+header h1 #logoux{font-weight: 600;font-style: italic;} 
+
+header nav  {
+    border: 2px solid white
+}
+
+header nav a {
+    color: white; 
+    text-decoration: violet;
+}
+
+/* h2 { width: 300px;
+    height: 300px;
+    border: 20px solid red;
+
+    margin: auto ;
+    margin: 20px;
+    margin: 20px 10px 20px 10px;
+
+} */
+
+
