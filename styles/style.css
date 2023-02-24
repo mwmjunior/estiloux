@@ -40,6 +40,10 @@ header h1 { color: white; font-weight: 300; border: 2px solid white;
 header h1 #logoux{font-weight: 600;font-style: italic;} 
 
 header nav  {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 2px solid white
 }
 
@@ -47,6 +51,52 @@ header nav a {
     color: white; 
     text-decoration: violet;
 }
+
+                /******MAIN******/
+
+.colunas-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .coluna1{
+    width:  75%;
+    /* background-color: green; */
+}
+
+/*      Imagem do Lápis */
+main .coluna1 #lapis {
+
+    width: 100%;
+}
+
+p {
+
+    margin: 40px;
+}
+
+
+main .coluna2 {
+    width: 20%;
+    /* background-color: green; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* h2 { width: 300px;
     height: 300px;
