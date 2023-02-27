@@ -58,6 +58,7 @@ header nav a {
                 /******MAIN******/
 
 .colunas-flex{
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
